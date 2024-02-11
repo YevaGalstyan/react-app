@@ -1,11 +1,10 @@
 import {configureStore} from '@reduxjs/toolkit';
-import loginReducer from './login/login-slice'
-import todoSlice from './todo-slice/todo-slice';
 import {useDispatch} from 'react-redux';
+import homeReducer from './home-slice/slice';
+
 export const store = configureStore({
     reducer: {
-        login: loginReducer,
-        todo: todoSlice
+        home: homeReducer,
     }
 })
 
