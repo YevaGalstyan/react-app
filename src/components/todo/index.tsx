@@ -4,9 +4,8 @@ import './style.css'
 import {Form, ListGroup} from 'react-bootstrap';
 import {useAppDispatch} from '../../store';
 import {fetchData} from '../../store/todo-slice/todo-slice';
-import {useDispatch, useSelector} from 'react-redux';
+import {useSelector} from 'react-redux';
 import {listSelector} from '../../store/todo-slice/todo-selector';
-import {userSelector} from '../../store/login/login-selector';
 
 const Todo: FC = () => {
 
