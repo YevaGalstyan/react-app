@@ -16,7 +16,7 @@ This is a small ReactJS application built with Webpack, Typescript, and Redux. T
 - **Table:** Displays data fetched from "https://jsonplaceholder.typicode.com/todos".
 
 ### Running the Development Server
-You can run the development server using the following command:
+You can run the development server using the following command: `webpack serve --open --mode development`
 
 
 ### Technologies Used
