@@ -1,6 +1,7 @@
 .admin_container {
     display: flex;
     width: 100%;
+    height: calc(100vh - 100px);
     padding: 20px;
     border-right: 1px solid #dee2e6;
     border-left: 1px solid #dee2e6;
@@ -9,6 +10,7 @@
     border-bottom-right-radius: 10px;
     flex-direction: column;
     gap: 20px;
+    overflow-y: scroll;
 }
 
 .form_container {
@@ -18,4 +20,17 @@
 
 .admin_form {
     width: 400px;
+}
+
+.actor_group {
+    display: flex;
+    gap: 10px;
+    align-items: center;
+}
+
+.Plus_icon {
+    width: 30px;
+    height: 30px;
+    color: #0d6efd;
+    cursor: pointer;
 }

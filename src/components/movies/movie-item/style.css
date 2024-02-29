@@ -1,0 +1,12 @@
+.movie_card {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+span {
+    max-width: 80%;
+}
+
+.video_component {
+    width: 80%;
+}
