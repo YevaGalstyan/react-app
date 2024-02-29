@@ -1,0 +1,21 @@
+.admin_container {
+    display: flex;
+    width: 100%;
+    padding: 20px;
+    border-right: 1px solid #dee2e6;
+    border-left: 1px solid #dee2e6;
+    border-bottom: 1px solid #dee2e6;
+    border-bottom-left-radius: 10px;
+    border-bottom-right-radius: 10px;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.form_container {
+    display: flex;
+    gap: 20px;
+}
+
+.admin_form {
+    width: 400px;
+}
